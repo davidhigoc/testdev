@@ -6,7 +6,6 @@ class AppRoutes {
   static const initialRoute = "Home";
 
   static Map<String, Widget Function(BuildContext)> lasRoutes = {
-    // "Init": (BuildContext context) => const InitTree(),
     "Home": (BuildContext context) => const Home(),
     "page2": (BuildContext context) => const Page2(),
   };

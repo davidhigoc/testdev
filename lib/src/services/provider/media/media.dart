@@ -22,7 +22,7 @@ class Media extends ChangeNotifier {
     altoT = s.height;
     anchoSA = s.width - (p.left + p.right);
     altoSA = s.height - (p.top + p.bottom);
-    print("InitMedia");
+    // print("InitMedia");
     return "InitMedia";
   }
 }
